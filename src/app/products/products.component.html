@@ -1,0 +1,7 @@
+<ol>
+  <li *ngFor="let product of products">
+    <a [routerLink]="" (click)="getProduct('product', product.id)">
+      {{ product.name }}
+    </a>
+  </li>
+</ol>
